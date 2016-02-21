@@ -1,0 +1,11 @@
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\MailFunctionality.dll
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\MailFunctionality.pdb
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\DirectoryMonitoring.csprojResolveAssemblyReference.cache
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
+D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb

@@ -1,0 +1,1 @@
+c:\users\bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config

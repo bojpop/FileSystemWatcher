@@ -9,3 +9,6 @@ C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\FileSyste
 D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
 D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
 D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb

@@ -4,33 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using FileSystemWatcher;
 using MailFunctionality;
 
 namespace DirectoryMonitoring
 {
     class Program
     {
-        static void Main(string[] args)
+        private static readonly DirectoryWatcher DirectoryWatcher = new DirectoryWatcher();
+
+        public static void Main(string[] args)
         {
-            string path = @"D:\Programming\Stepa\Parsing";
+            
+            const string watchedFolderPath = @"D:\Programming\Stepa\Parsing";
 
-            FileSystemWatcher watcher = new FileSystemWatcher();
-
-            watcher.Path = path;
-            watcher.EnableRaisingEvents = true;
-            watcher.Filter = "*.*";
+            var watcher = new System.IO.FileSystemWatcher
+            {
+                Path = watchedFolderPath,
+                EnableRaisingEvents = true,
+                Filter = "*.*"
+            };
 
             watcher.Created += watcher_Created;
 
             while (true) ;
         }
 
-        static void watcher_Created(object sender, FileSystemEventArgs e)
+        private static void watcher_Created(object sender, FileSystemEventArgs e)
         {
-            Console.WriteLine("File : " + e.FullPath + " is created.");
-            Functions.Parsing(e.FullPath);
-            Functions.SendMail("Info mail", e.FullPath);
-            Functions.CopyFile(e.FullPath);
+            DirectoryWatcher.NewFileCreatedAt(e.FullPath);
         }
     }
 }

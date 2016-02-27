@@ -39,7 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Functions.cs" />
+    <Compile Include="IAmMailSender.cs" />
+    <Compile Include="IAmPaymentFileArchiver.cs" />
+    <Compile Include="IAmPaymentFileParser.cs" />
+    <Compile Include="ParsingResult.cs" />
+    <Compile Include="GmailSender.cs" />
+    <Compile Include="PaymentFileArchiver.cs" />
+    <Compile Include="PaymentFileParser.cs" />
+    <Compile Include="PaymentFileProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

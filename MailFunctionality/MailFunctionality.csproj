@@ -42,6 +42,7 @@
     <Compile Include="IAmMailSender.cs" />
     <Compile Include="IAmPaymentFileArchiver.cs" />
     <Compile Include="IAmPaymentFileParser.cs" />
+    <Compile Include="IAmPaymentFileProcessor.cs" />
     <Compile Include="ParsingResult.cs" />
     <Compile Include="GmailSender.cs" />
     <Compile Include="PaymentFileArchiver.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace MailFunctionality
 {
-    public class PaymentFileProcessor
+    public class PaymentFileProcessor : IAmPaymentFileProcessor
     {
         private readonly IAmPaymentFileParser _fileParser;
         private readonly IAmMailSender _mailSender;

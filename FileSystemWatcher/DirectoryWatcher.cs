@@ -7,8 +7,9 @@ using MailFunctionality;
 
 namespace FileSystemWatcher
 {
-    internal class DirectoryWatcher
+    internal class DirectoryWatcher : IAmDirectoryWatcher
     {
+
         private readonly PaymentFileProcessor _paymentFileProcessor = new PaymentFileProcessor(
                                                                             new GmailSender(), 
                                                                             new PaymentFileParser(), 

@@ -12,3 +12,8 @@ D:\Bojan\Programiranje\C#\FileSystemWatcher\FileSystemWatcher\obj\Debug\FileSyst
 D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe.config
 D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\obj\Debug\FileSystemWatcher.exe
 D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\obj\Debug\FileSystemWatcher.pdb
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\FileSystemWatcher.exe
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\FileSystemWatcher.pdb
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\MailFunctionality.dll
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\bin\Debug\MailFunctionality.pdb
+D:\Programming\Projects\FileSystemWatcherGit\FileSystemWatcher\obj\Debug\DirectoryMonitoring.csprojResolveAssemblyReference.cache

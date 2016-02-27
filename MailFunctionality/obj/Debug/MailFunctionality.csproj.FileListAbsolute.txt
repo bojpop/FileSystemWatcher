@@ -3,3 +3,8 @@ C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\MailFunct
 C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.csprojResolveAssemblyReference.cache
 C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.dll
 C:\Users\Bojan\documents\visual studio 2013\Projects\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.pdb
+D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\bin\Debug\MailFunctionality.dll
+D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\bin\Debug\MailFunctionality.pdb
+D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.csprojResolveAssemblyReference.cache
+D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.dll
+D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.pdb

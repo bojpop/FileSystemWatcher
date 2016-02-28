@@ -11,7 +11,12 @@ namespace DirectoryMonitoring
 {
     class Program
     {
-        private static readonly DirectoryWatcher DirectoryWatcher = new DirectoryWatcher();
+        private readonly IAmDirectoryWatcher _directoryWatcher;
+
+        public Program(IAmDirectoryWatcher directoryWatcher)
+        {
+            _directoryWatcher = directoryWatcher;
+        }
 
         public static void Main(string[] args)
         {
@@ -30,9 +35,9 @@ namespace DirectoryMonitoring
             while (true) ;
         }
 
-        private static void watcher_Created(object sender, FileSystemEventArgs e)
+        public void watcher_Created(object sender, FileSystemEventArgs e)
         {
-            DirectoryWatcher.NewFileCreatedAt(e.FullPath);
+            _directoryWatcher.NewFileCreatedAt(e.FullPath);
         }
     }
 }

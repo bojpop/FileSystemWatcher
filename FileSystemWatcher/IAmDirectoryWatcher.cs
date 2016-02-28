@@ -1,6 +1,6 @@
 namespace FileSystemWatcher
 {
-    internal interface IAmDirectoryWatcher
+    public interface IAmDirectoryWatcher
     {
         void NewFileCreatedAt(string path);
     }

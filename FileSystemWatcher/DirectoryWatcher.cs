@@ -7,13 +7,24 @@ using MailFunctionality;
 
 namespace FileSystemWatcher
 {
-    internal class DirectoryWatcher : IAmDirectoryWatcher
+    public class DirectoryWatcher : IAmDirectoryWatcher
     {
+        private readonly IAmPaymentFileProcessor _paymentFileProcessor;
 
-        private readonly PaymentFileProcessor _paymentFileProcessor = new PaymentFileProcessor(
+        public DirectoryWatcher(IAmPaymentFileProcessor paymentFileProcessor)
+        {
+            _paymentFileProcessor = paymentFileProcessor;
+        }
+
+        public DirectoryWatcher()
+        {
+            throw new NotImplementedException();
+        }
+
+        /*private readonly PaymentFileProcessor _paymentFileProcessor = new PaymentFileProcessor(
                                                                             new GmailSender(), 
                                                                             new PaymentFileParser(), 
-                                                                            new PaymentFileArchiver());
+                                                                            new PaymentFileArchiver());*/
 
         public void NewFileCreatedAt(string path)
         {

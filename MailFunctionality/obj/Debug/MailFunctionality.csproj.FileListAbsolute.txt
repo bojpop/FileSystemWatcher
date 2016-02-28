@@ -8,3 +8,8 @@ D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\bin\Debug\MailFun
 D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.csprojResolveAssemblyReference.cache
 D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.dll
 D:\Programming\Projects\FileSystemWatcherGit\MailFunctionality\obj\Debug\MailFunctionality.pdb
+D:\Bojan\Programiranje\C#\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.csprojResolveAssemblyReference.cache
+D:\Bojan\Programiranje\C#\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.dll
+D:\Bojan\Programiranje\C#\FileSystemWatcher\MailFunctionality\obj\Debug\MailFunctionality.pdb
+D:\Bojan\Programiranje\C#\FileSystemWatcher\MailFunctionality\bin\Debug\MailFunctionality.dll
+D:\Bojan\Programiranje\C#\FileSystemWatcher\MailFunctionality\bin\Debug\MailFunctionality.pdb

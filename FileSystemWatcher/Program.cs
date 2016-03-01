@@ -29,8 +29,8 @@ namespace DirectoryMonitoring
                 EnableRaisingEvents = true,
                 Filter = "*.*"
             };
-
-            watcher.Created += watcher_Created;
+            Program program = new Program();
+            watcher.Created += program.watcher_Created;
 
             while (true) ;
         }

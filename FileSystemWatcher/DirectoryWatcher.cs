@@ -16,11 +16,6 @@ namespace FileSystemWatcher
             _paymentFileProcessor = paymentFileProcessor;
         }
 
-        public DirectoryWatcher()
-        {
-            throw new NotImplementedException();
-        }
-
         /*private readonly PaymentFileProcessor _paymentFileProcessor = new PaymentFileProcessor(
                                                                             new GmailSender(), 
                                                                             new PaymentFileParser(), 

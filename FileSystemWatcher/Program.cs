@@ -11,9 +11,9 @@ namespace DirectoryMonitoring
 {
     class Program
     {
-        private readonly IAmDirectoryWatcher _directoryWatcher;
+        private static IAmDirectoryWatcher _directoryWatcher;
 
-        public Program(IAmDirectoryWatcher directoryWatcher)
+        private Program(IAmDirectoryWatcher directoryWatcher)
         {
             _directoryWatcher = directoryWatcher;
         }
@@ -29,7 +29,7 @@ namespace DirectoryMonitoring
                 EnableRaisingEvents = true,
                 Filter = "*.*"
             };
-            Program program = new Program();
+            Program program = new Program(_directoryWatcher);
             watcher.Created += program.watcher_Created;
 
             while (true) ;

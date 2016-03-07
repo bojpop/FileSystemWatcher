@@ -9,7 +9,7 @@ namespace FileSystemWatcher
 {
     public class DirectoryWatcher : IAmDirectoryWatcher
     {
-        private readonly IAmPaymentFileProcessor _paymentFileProcessor;
+        public readonly IAmPaymentFileProcessor _paymentFileProcessor;
 
         public DirectoryWatcher(IAmPaymentFileProcessor paymentFileProcessor)
         {

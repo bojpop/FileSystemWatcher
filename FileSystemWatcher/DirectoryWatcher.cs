@@ -7,7 +7,7 @@ using MailFunctionality;
 
 namespace FileSystemWatcher
 {
-    public class DirectoryWatcher : IAmDirectoryWatcher
+    public class DirectoryWatcher
     {
         public readonly IAmPaymentFileProcessor _paymentFileProcessor;
 

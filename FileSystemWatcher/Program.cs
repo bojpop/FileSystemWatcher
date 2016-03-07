@@ -17,7 +17,7 @@ namespace DirectoryMonitoring
         {
             _directoryWatcher = directoryWatcher;
         }*/
-        public static readonly DirectoryWatcher _directoryWatcher = new DirectoryWatcher(new PaymentFileProcessor(new GmailSender(),
+        private static readonly DirectoryWatcher _directoryWatcher = new DirectoryWatcher(new PaymentFileProcessor(new GmailSender(),
                                                                                                                   new PaymentFileParser(),
                                                                                                                   new PaymentFileArchiver()));
 

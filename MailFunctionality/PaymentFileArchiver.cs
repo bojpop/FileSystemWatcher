@@ -12,7 +12,7 @@ namespace MailFunctionality
             try
             {
                 var onlyFileName = System.IO.Path.GetFileName(fileName);
-                var targetPath = @"D:\Programming\Stepa\Archive";
+                var targetPath = @"E:\Code\Stepa\Archive\";
 
                 var sourceFile = fileName;
                 _destFile = System.IO.Path.Combine(targetPath, onlyFileName);

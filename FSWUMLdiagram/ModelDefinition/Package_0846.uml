@@ -1,0 +1,2499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="11842a90-408f-41f8-8d68-42923b0a6ae4"
+  name="MailFunctionality"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="37629b63-785e-4e73-ab4b-270caea4900b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMailFunctionality"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="915f8e19-40c7-4586-bcf1-44e5f707475c"
+        name="IAmPaymentFileProcessor"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6f5c6537-1fad-496c-8b72-0e8e1af47853"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileProcessor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a7ed6d00-dbdc-4bce-bbb3-5ef6730dfa43"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7b1d986-862d-4f31-a1a7-a15cc4ff7ef1">
+                <propertyInstance
+                  Id="e678c524-fc71-46e9-b04a-bd3d090ab7c1"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8c7627eb-2c12-4f8b-8606-a0302b0c32cf">
+                <propertyInstance
+                  Id="b89ae817-7a86-4b3c-a40e-7c04bfbcd6ef"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="39cb5d95-233c-4888-b948-67e057c1b828">
+                <propertyInstance
+                  Id="d294be57-e7af-46a6-9039-699044961020"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f0980a88-95c5-4967-9c3c-b834ef0c071d">
+                <propertyInstance
+                  Id="093bdae1-44f4-498a-b3aa-fb849e6f2268"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="cdf64ffc-16d1-4264-875f-fb78adc416f2"
+            name="ProcessFileFrom"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="908229dc-fef6-4ed4-af6e-5f53229f648f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileProcessor Member%3D(Name%3DProcessFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1407518a-eb7e-42b6-b647-59a995a608f0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1a6e61a7-d44c-43b4-b8ee-a24e9100f5d9">
+                    <propertyInstance
+                      Id="79f88b50-c3cf-48d7-98a7-434ffeaf1114"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cbbbd66-4ff8-4728-800b-217696b92a03">
+                    <propertyInstance
+                      Id="19942103-3b14-4a16-8be7-5d9b8c39fb7c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e470878d-d417-4700-ae00-f8538a45ab5e">
+                    <propertyInstance
+                      Id="2f583775-25ec-4252-a619-4ba9de7038af"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a83a84a-f50f-464d-9048-320350c08a54">
+                    <propertyInstance
+                      Id="6152a2c2-009f-402d-8420-25db17651430"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3767930-d2ab-4349-b7a6-c48646507453">
+                    <propertyInstance
+                      Id="f1ecc172-1c39-4bbf-a8a4-0209dc865ff3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5560590-73ce-4219-a3f2-153fbd773abc">
+                    <propertyInstance
+                      Id="f3825ea2-ba68-4e14-8b23-6fee95f1f842"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5cf1c05b-6959-4aac-9c7f-187f98e46946"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8329a0f3-8fca-4149-a6f1-d0adff768a3e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileProcessor Member%3D(Name%3DProcessFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="82155213-0dae-440a-a5ce-5414d1ba61e4"
+        name="IAmMailSender"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5edd4bc9-82da-468c-9f8d-11be5ebce3d5"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a6118b2c-0fec-4265-9df3-46875de41552"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5f37c18-cb79-4e07-ae57-80050eaa742b">
+                <propertyInstance
+                  Id="79dd441a-d604-4551-90f1-39864b40786c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1db4f52f-f982-4939-bbf1-f0f04c5797af">
+                <propertyInstance
+                  Id="4967d372-6507-4909-8026-b313be8f09e0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94df2118-e325-43c2-8a24-b5333fba14d5">
+                <propertyInstance
+                  Id="422e9583-ba2b-419e-8c07-e26b02461137"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d3336180-e885-464d-b55d-94d2b5b04c80">
+                <propertyInstance
+                  Id="4244e07b-2620-4b3e-9c07-80f52116bf22"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="ffde5509-3d31-496a-9a01-5071baf3003f"
+            name="SendMail"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="99b9c1b3-4904-4cba-aff8-37e9eb252f2c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2f50f664-0d6b-451d-b275-8d9186ced197"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51142997-7fca-4667-bd32-e11a889197b3">
+                    <propertyInstance
+                      Id="043fb69c-60f0-468c-ba14-2dc8261ec7b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70abab00-259a-49cc-af76-5d09d6463962">
+                    <propertyInstance
+                      Id="1322cbf5-1d0d-4d9c-b2f2-33c965e91243"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8cab2f5-d2a4-42dc-96ca-3201ec98b4c0">
+                    <propertyInstance
+                      Id="c28d7b36-0601-472f-8dad-f23eb09a4887"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51dfc825-4180-44a2-ac2c-5de715f9e0b3">
+                    <propertyInstance
+                      Id="a3bd5949-c9b4-439e-b370-6897b6b4a8fb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6be6875-6b03-4f2c-848d-81d21da4288c">
+                    <propertyInstance
+                      Id="f9ff3628-825e-4a6c-966d-a2fa5d3c9fab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cdcc168-ed2e-484b-8ba3-4f5361ad5319">
+                    <propertyInstance
+                      Id="ad86ee48-43e7-47b3-a5e8-039ddd5e3e23"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6607357b-4b1e-4d7f-9931-459163c0e423"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5fc21976-9d59-4a24-ba24-10b7b9451992"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="08ca0375-abe3-450c-a256-c229509fe3d3"
+                  name="fullPath"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0a2941d8-d87e-4897-9528-c5d43d5f4e8b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3DfullPath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bb418134-741d-4b19-b41b-7f14885f503c"
+                  name="parsingResult"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e268e349-20c4-440a-8502-11b62a978ff9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3DparsingResult"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f04627cc-a459-47ac-aa56-36b0ead309f7"
+                      LastKnownName="ParsingResult"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f04627cc-a459-47ac-aa56-36b0ead309f7"
+        name="ParsingResult"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2e12ccdd-9c2f-43fd-b020-5a82b02944b7"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="28291000-575e-448d-9f0d-9c25a28d4c55"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d6485910-486f-4ad6-a5f4-00e47df2f19a">
+                <propertyInstance
+                  Id="1ea83c2e-68f5-442d-9b8e-49179a0105df"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="67f6368a-f591-4556-9f21-db788a67b8eb">
+                <propertyInstance
+                  Id="c5fed385-5f93-46bb-bd41-773ac3fe20d3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e6b31e4-b7c5-4fe8-abf7-d55b4d4c60f2">
+                <propertyInstance
+                  Id="84bca997-93c6-4984-85b7-dea40fce7c4e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7342ad76-1ef1-4947-bcfc-ade15990d87d">
+                <propertyInstance
+                  Id="098d2b03-ba28-4d04-b314-c578fa3c2be5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36f7b499-a133-4449-bf7a-31444e65b4bb">
+                <propertyInstance
+                  Id="c806f5d9-8eac-446a-80d9-745a796f5fd8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="9c3cb9bf-ffd3-44b4-b2b6-228060f6a207"
+            name="TransactionNumber"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="787344c9-fd76-4600-b32c-5e8363304f46"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult Member%3DTransactionNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8fccf55a-0ecc-4a9c-8e4a-e0ce50229157"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef334870-5950-46db-9270-2a23dcd70b79">
+                    <propertyInstance
+                      Id="695404ce-a0b4-4be6-bf52-7cd5a4252ff2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd8f988a-3c8f-458c-9f1e-ae6eb58bd0ad">
+                    <propertyInstance
+                      Id="2d8585dd-4d5e-4590-8a86-ed6d9ad83d8b"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b68e8de-28fc-4c94-91c2-7dce3e638f22">
+                    <propertyInstance
+                      Id="08f79d9d-6fd7-424c-8875-f07b43be2cf6"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d32d74db-4530-44e0-8ce0-da51ca7c2a5e">
+                    <propertyInstance
+                      Id="a0aa0872-2722-4aaa-9f40-bbad477df81b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b55207ba-1fd0-4ff9-89db-0f485dcec824">
+                    <propertyInstance
+                      Id="16ce3864-49d6-43a5-b582-854c879c57e6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="705d1dd6-6820-4dcb-9e07-68cde6d2f889">
+                    <propertyInstance
+                      Id="4878a062-58ac-4bfb-bc11-1b82f75ad71e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8e2d02a-f2df-4757-baea-5fed704cba4b">
+                    <propertyInstance
+                      Id="676696d5-33af-4a8b-9b6a-3cb762dae70b"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FSWUMLdiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a3cff774-4fdf-425b-a253-3046344d6666"
+            name="NumberOfTransactions"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="669fc62c-f372-48a8-8a0e-443927749f8c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult Member%3DNumberOfTransactions"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f8f9ede0-93de-48c2-9811-7e3b1a33029a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2beeda6a-95fb-466c-82c7-38ae7c530b96">
+                    <propertyInstance
+                      Id="65ab4514-7792-46e2-adfc-ff0831ebb9aa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a95e3ea6-c25f-4330-a092-041200958c19">
+                    <propertyInstance
+                      Id="a14e3dde-814d-4d5e-9d28-38a533933224"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c0dc7e7-c7da-4491-ad37-8c16fa6690a4">
+                    <propertyInstance
+                      Id="aa81ac69-c633-46d9-a8d0-e32e9fcad023"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73e2e914-9977-4c9d-ad10-5fd0cbf16d82">
+                    <propertyInstance
+                      Id="ee004ded-934a-4dcd-82e9-65755f2ec56a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccc96c32-f862-4765-9111-fa3e6a9ea4bc">
+                    <propertyInstance
+                      Id="f8c7cf2d-33a6-48a2-a9a7-dc9a1bced0af"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7bb42235-0b6b-460a-a834-d553ff22594c">
+                    <propertyInstance
+                      Id="95646051-aead-4b10-8065-6aa602179825"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="472abdc6-9a66-48dc-b3a2-46bc7d6bddc2">
+                    <propertyInstance
+                      Id="49dc6ffe-7c15-49d2-987b-c4d305eb162c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="FSWUMLdiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="387fc9b6-3069-4ce9-9dac-c272a56d1497"
+            name="ParsingResult"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c11758bf-d20b-4d47-8aea-3bdf70a08ae9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="437ed25c-ec78-4145-9d5c-d62eea315f63"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0671f5c-9a31-4681-bacb-a29c93588ba7">
+                    <propertyInstance
+                      Id="c9ff7a9c-0242-4128-a833-0fdcba950bfe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2805f7f2-84dc-4c02-830d-d85343d82380">
+                    <propertyInstance
+                      Id="a667dc32-fd6c-4556-997b-2646759388ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2435d70-2bb3-4de0-8cb6-31cacb7dcf43">
+                    <propertyInstance
+                      Id="481be4a6-55ed-4627-93fe-55ddd4b4f6f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e444f51-67dd-40c2-b528-63b5081ae9fb">
+                    <propertyInstance
+                      Id="47a63a9b-3aa6-43c1-99e7-fe809cc0daec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2fd26f95-6e37-42f9-88a2-39ab6873536a">
+                    <propertyInstance
+                      Id="b6f0be23-1e8c-4ed6-b1e3-1a0c4bfd27ec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="493aeb79-8028-4b8f-b72b-28fff0368c86">
+                    <propertyInstance
+                      Id="077da845-7670-4964-9a8c-d124db13cb20"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fc10c090-4a8f-4fa9-9b6f-875a33ef584c"
+        name="GmailSender"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e37b2b9b-d3a0-45e9-ae8b-d14e66bef73f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="67a86d98-3e51-4149-8d7c-c7e2e68d5175"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6fb1de3-2639-4545-af1f-5ab24e84b4bf">
+                <propertyInstance
+                  Id="00f7070f-db82-4dca-b8c8-0e0020bf19a0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="356e9cbb-8fd1-4207-83d4-05b08ae3dd20">
+                <propertyInstance
+                  Id="d3109644-b0b3-411e-9ef0-d19e8f6798aa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17b5328d-22eb-4229-ae0b-63d1dd3c7f70">
+                <propertyInstance
+                  Id="8a589dff-c944-41c4-bb97-818df6583d75"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2248a258-36e5-4689-8ab3-4d39e74493b3">
+                <propertyInstance
+                  Id="12921645-5098-44f5-8314-7eea4041fca7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af7ec58f-3544-4acb-867b-5e325811bf4f">
+                <propertyInstance
+                  Id="9b0cdf84-a95b-4fd1-a63d-094788798fa8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="f7269a29-ca9d-4816-b391-3b28a8e887f8">
+            <interfaceMoniker
+              Id="82155213-0dae-440a-a5ce-5414d1ba61e4"
+              LastKnownName="IAmMailSender"
+              LastKnownLocation="Package_0846.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="20ded0b6-7956-4149-bb0b-ef027d3f71f8"
+            name="SendMail"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="83b11f24-a44b-4996-80d5-52966d3155ef"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="33c2a00c-d0a4-4681-b509-ed88d9109fa7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21967868-df43-4a51-ab38-70d064f3e539">
+                    <propertyInstance
+                      Id="7808473a-470b-45f3-acbc-4f2b77047fba"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="662b9f7a-c374-41cd-83b5-c7b13865a2be">
+                    <propertyInstance
+                      Id="5da4f210-53ad-4654-bd46-2cc927ca93ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1d70604-12a1-49ea-8f19-4b65ee98ead6">
+                    <propertyInstance
+                      Id="0c124028-d289-450c-8ac8-fc1b2417e6f6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4a38e39-0058-4fb6-825b-8e0ca4720de1">
+                    <propertyInstance
+                      Id="5a6bf6d9-ed0a-4018-ba36-086bc3b8cc2b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55f4662a-5410-4d9c-b736-2880ab3e3ab6">
+                    <propertyInstance
+                      Id="ecca390a-0ceb-4387-81ac-bc62e4f77867"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8f7561f-16cc-491d-b4d5-2e786fbce11a">
+                    <propertyInstance
+                      Id="47afc417-60d1-477b-92a2-c1cff5eaf1e7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="73140f87-6869-4222-8532-26c72ed4fde9"
+                  name="subject"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="da0f828a-2dff-4b90-a4e0-51419a42649b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3Dsubject"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="71ed99a5-3739-4622-929f-224e264415b5"
+                  name="fullPath"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6e083836-6d04-4916-bb72-dcffa9028005"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3DfullPath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="584c1ef5-2b5d-481d-b1a9-2a91450d79b6"
+                  name="parsingResult"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9f40886b-9a0b-4b5c-a9f7-19c11fcd67df"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender Member%3D(Name%3DSendMail OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DParsingResult)]) ParameterIdentifier%3DparsingResult"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f04627cc-a459-47ac-aa56-36b0ead309f7"
+                      LastKnownName="ParsingResult"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7fed7f95-dcb5-4c42-89cc-1fdd9e28d05f"
+            name="GmailSender"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="da3d1d32-e22f-4152-bd7f-365e2213375c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DGmailSender Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46835987-d289-42dd-93a0-41072638c33c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="455cee20-d20b-4905-bab4-d105821cb3a0">
+                    <propertyInstance
+                      Id="90902c05-320b-4cb5-81fc-d75b07b760cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="234de21e-a044-40f9-9b4e-37b69e31cfab">
+                    <propertyInstance
+                      Id="c0314e00-8517-47d7-a006-0e88f1149e03"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66017a06-ea62-4d9a-ab91-d69f8e2d648b">
+                    <propertyInstance
+                      Id="b02c8575-455c-41da-ad24-6404ce1abe05"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f1eaf54-7d39-469f-bfbe-c7fde30bea1d">
+                    <propertyInstance
+                      Id="28155ab6-f213-458a-9b08-7c6fa1781090"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bc9fed4-09a7-47d2-bb1e-38dcf22decdd">
+                    <propertyInstance
+                      Id="83b300a8-dc76-419b-90df-25c6999344af"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b66be6d-5ccf-4c0f-ab4e-24d6af31a375">
+                    <propertyInstance
+                      Id="d5bf6423-41d5-479a-842f-f1a55c81c631"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="12b05ed7-2ea9-49c3-bb5f-ab35cdc372b9"
+        name="IAmPaymentFileArchiver"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a4aff2f6-9b18-4326-911e-50ca66dc0d1e"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b43f536b-4596-4b79-8760-cce4fd5aa6c5"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f909d6d-cdca-4ddd-acdb-82894cbfa215">
+                <propertyInstance
+                  Id="f16b8f87-5d05-4872-9300-913e528a8ea7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec357af7-db72-41b5-85ed-6742a48f517f">
+                <propertyInstance
+                  Id="7af0db87-b4a1-4e7e-96fd-bc72c2c76046"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70dff0a8-03d5-4f6f-8bcb-61f11f0c1e7e">
+                <propertyInstance
+                  Id="97408812-2ec3-4dc1-a892-4b23b2075569"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e6a851d0-dc2f-4abc-b4c4-57b2d7249f61">
+                <propertyInstance
+                  Id="c4f3b695-12f0-42b3-b3c1-2ad726b8878a"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="8f256f90-665d-4695-9a8f-f30de442f2c2"
+            name="CopyFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d154350b-2286-4102-ae8d-b0ee26cb7eec"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver Member%3D(Name%3DCopyFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6da7bae-9e2f-4679-be1d-02b483e010de"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a06d75f7-264c-439a-b4d7-63f5a259cf20">
+                    <propertyInstance
+                      Id="725dad47-5ac4-43bf-9757-16bf0435e2f6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a90f57d-c6ca-4555-9ebe-13b0235408e0">
+                    <propertyInstance
+                      Id="f5521ccb-ad22-4a11-9502-2b638ded6ecb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c492021-2863-4580-b23a-54ffe151429a">
+                    <propertyInstance
+                      Id="c6a07b02-9b76-419f-b383-c6a448b115ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a09b7219-80cd-419d-8fa0-5aff3555c72e">
+                    <propertyInstance
+                      Id="a9ab3a35-5c8e-4792-84e2-954db1578598"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50759a99-d71f-4651-b282-59fd5b4ec0d7">
+                    <propertyInstance
+                      Id="cb9e8d8d-81b3-4a4d-8b57-fb3a6483e175"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec9f42fe-d208-444e-a58c-a407d7ea3c8d">
+                    <propertyInstance
+                      Id="8404a6d5-6356-4514-b9e2-6337b69de18a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cb112049-8f73-4df9-9fde-3c227cf15e98"
+                  name="fileName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="84d789d1-770d-4ebc-932c-a85a55203936"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver Member%3D(Name%3DCopyFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DfileName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="42a2d356-df93-4c67-99d2-2a710945325b"
+        name="PaymentFileArchiver"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="97923101-e235-44be-a71a-58bffb35992b"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileArchiver"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d32a2824-195f-4935-bb0c-f6f44344c604"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9cfe4e5-8c66-4868-81e8-153f163cdb71">
+                <propertyInstance
+                  Id="ee1165e7-339c-4ada-b48d-c1ae11a8a565"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a4005d2-5c20-4233-94d0-99c4976c2781">
+                <propertyInstance
+                  Id="74c39c39-a124-44ad-b4ce-10ba86273b1e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6447b75e-1d13-4c3a-adc1-bcb421cf0d4e">
+                <propertyInstance
+                  Id="f0b265d8-2f5e-4fdd-b251-1a3f1263e0f2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="609cde93-d4fb-4cd7-a6aa-d29509bfc85b">
+                <propertyInstance
+                  Id="fd9a81a3-8ce7-407a-9ad5-8d440ac1cce5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f6e0d5b0-7bb4-45a3-8222-3acea0c849b1">
+                <propertyInstance
+                  Id="f0c05c8f-b688-4fa0-9d76-a8698a2eae99"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="56f806d1-4ff9-47ee-bdd7-498b7e29eaa0">
+            <interfaceMoniker
+              Id="12b05ed7-2ea9-49c3-bb5f-ab35cdc372b9"
+              LastKnownName="IAmPaymentFileArchiver"
+              LastKnownLocation="Package_0846.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="e5baf674-fcfa-48a4-b4cf-0e8485fdcb4d"
+            name="_destFile"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="adedd3e2-d38d-49c8-bead-cd316cd24c89"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileArchiver Member%3D_destFile"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6dcbf5d0-9874-42e6-9e6d-f9968333f038"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d34a8ed5-d797-4c39-9986-d22a658f1370">
+                    <propertyInstance
+                      Id="00ba2362-c518-4d1b-8f0a-88deddfbd880"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e2d8f82-8375-4dff-873b-97b90d77920a">
+                    <propertyInstance
+                      Id="606b6eba-6a50-4f5c-98f1-ff5351e2d104"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51a11400-a696-4dac-80d6-6c251f414e32">
+                    <propertyInstance
+                      Id="289948c8-a12e-4e49-a365-d3e32a135133"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23b4d1cc-be7c-4fb1-a09e-d4ecbbc6831c">
+                    <propertyInstance
+                      Id="fec8abac-6dd8-465b-9fe8-dbcd61679f70"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="776ac664-8a4d-42f5-bcf2-30b437e05465">
+                    <propertyInstance
+                      Id="18647cfe-45db-4b46-9bcb-62755bbb6c1a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FSWUMLdiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="242d1ff7-1c20-46c6-94e2-c516cda0d5c6"
+            name="CopyFile"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2ea969fe-d9b9-49f1-af44-db6b640bf0ae"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileArchiver Member%3D(Name%3DCopyFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="24596b3d-c705-4634-a044-6fe01de789df"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="970112b4-671a-43ab-ad30-90374ef81ec3">
+                    <propertyInstance
+                      Id="55cd9ec1-ec57-4295-b7b1-3805a843be18"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b4bb974-4d26-467b-9f45-b5704ee7909d">
+                    <propertyInstance
+                      Id="3149ff16-9b5f-4c9d-8a71-90794b50b932"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11a6e04c-a3bd-49be-b8b7-11d1e391a902">
+                    <propertyInstance
+                      Id="6f5de5fc-e0f0-4c94-aeb8-a0333a59ec76"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b1668c5-8e58-4c3f-b4b5-210ea4f3ddeb">
+                    <propertyInstance
+                      Id="d67a2988-ecd0-43a4-9cc4-f9a9b818270a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80596f33-b791-45c9-9848-2c8defd938a4">
+                    <propertyInstance
+                      Id="9de0daf1-de61-42a9-b171-2b7a95c7392e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae1c7d56-1251-4814-a575-a7c4508520ec">
+                    <propertyInstance
+                      Id="9187df3f-7c52-4025-8ca6-f6a87076fd68"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d648526d-261f-420d-9014-a169acdbbc7b"
+                  name="fileName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3efdc4f1-2724-488c-90ff-86c7096e4a11"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileArchiver Member%3D(Name%3DCopyFile OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DfileName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4f587b60-fede-4876-9984-91ea6c7f7950"
+            name="PaymentFileArchiver"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f6342234-3b5e-449e-a3f6-588e3a5156cf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileArchiver Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5ad0aa44-4217-416e-890b-c7be5f47ee4c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5e83ae5c-e1db-4d79-a0b3-7f40ab384174">
+                    <propertyInstance
+                      Id="22f9e1f8-a174-4512-ac5f-b3b7c041be9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c177960-d238-4504-b712-bd53c1825396">
+                    <propertyInstance
+                      Id="56b454f2-8725-4d93-8b5e-d77aa00ec6c1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="081f9046-08ba-4670-9660-4532149dcdbe">
+                    <propertyInstance
+                      Id="b9690e24-ee2c-4df5-9348-9c7628b1b63c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75d176a6-5380-4a88-ad15-c9ad29c52f49">
+                    <propertyInstance
+                      Id="cb273985-14aa-4a39-8857-8e2f52bf963a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1e91224-859b-4056-88cd-9997ddd69513">
+                    <propertyInstance
+                      Id="bec28093-b5c8-4911-b022-4305ed3562f8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38fc6489-d2ea-4f52-bb4f-dd767a5933ef">
+                    <propertyInstance
+                      Id="08722ec4-83fb-4772-9b57-77b37c5fab51"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f68b7c18-f981-48b6-9b97-248bd56fb564"
+        name="PaymentFileParser"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a157b6e9-09a9-4d2d-a1b0-0f2dce7ad61d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e7ccb4eb-04f8-4d09-8119-ca03e983c125"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="16116770-7bdd-4766-ada1-e5b99f768cec">
+                <propertyInstance
+                  Id="5347cfcc-524b-4555-81e4-9fc72b836a64"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94fa659e-8b61-421a-bd8a-f83abfc73a02">
+                <propertyInstance
+                  Id="96977210-007f-493c-9bff-ab053d0b8ab3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1af84a41-b103-4c59-9032-fc1e1ce1aad8">
+                <propertyInstance
+                  Id="6f2ece37-7bb3-43a2-92f9-3baf728853ee"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="043fa9c0-3b09-442e-92db-b2cee48854e7">
+                <propertyInstance
+                  Id="8c581d33-2a18-4620-b8bb-ba212d506072"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d52aa70a-ce94-4fe4-a9cf-a5a3ee8448a4">
+                <propertyInstance
+                  Id="9bd2915c-4745-4b72-8f08-f20a8aa371c2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="715fcdcc-eaf0-43a4-a43c-1cf10acf173d">
+            <interfaceMoniker
+              Id="dcd796c1-25a6-478f-b3c9-7ac40669ecd5"
+              LastKnownName="IAmPaymentFileParser"
+              LastKnownLocation="Package_0846.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="45c7463a-b004-46e3-9cf9-6f8e7947b26d"
+            name="_transactionNumber"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="665a87ea-2099-4ea0-ab48-9d0ccb1ae099"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D_transactionNumber"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc1ce7a8-c24e-44dd-955c-4a4de39516f3"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f439ba4-3110-4384-b54c-ff274f81d51d">
+                    <propertyInstance
+                      Id="d25eb6df-0944-4194-a4cc-61050cd78592"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3cbb2d4-082a-47f9-9674-0bc3d2e4c085">
+                    <propertyInstance
+                      Id="e0f5c400-d01e-4848-8c43-5cec1ee8be5b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="192b20a5-db77-4aa9-9472-70aecd8ea22f">
+                    <propertyInstance
+                      Id="cce58758-3eb7-4e46-9b56-98d8367fb14e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c0014c1-62c3-4133-bafd-7ea2c548aac1">
+                    <propertyInstance
+                      Id="a4d31b6c-1588-4637-b94e-bef543b84db9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec7a6174-4b98-4ef6-b4ae-a88e7346e676">
+                    <propertyInstance
+                      Id="afe420db-38ef-434c-a1fe-12d274385d5a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="FSWUMLdiagram.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5ce009b-d0c9-45bf-ad0c-26867e3f336c"
+            name="_transactionNumCount"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="62d2b156-2bd7-4db4-8d06-58ffb80090a4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D_transactionNumCount"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="446cb00b-5fba-4f85-8644-9144c0e11126"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e58c1573-a4cd-43a5-beac-89a23b1c66fd">
+                    <propertyInstance
+                      Id="ff49e27a-efec-490d-84f6-7f22ad63a5d5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f927d214-f69a-4570-8449-60dcd64da667">
+                    <propertyInstance
+                      Id="66931aed-8317-4e3c-beb3-5f26eb528d00"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9984f51-dd00-4bd0-8edf-8a5f07d95672">
+                    <propertyInstance
+                      Id="f8bf69f0-f087-4d2b-b68c-0144ade6612f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="598ca5d4-42d5-4f69-8694-63ca4428229c">
+                    <propertyInstance
+                      Id="af3b58fb-b3be-48d1-826a-0fa4fd1287af"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aee54c2a-f6e3-492f-93fe-eb7524216457">
+                    <propertyInstance
+                      Id="101dbf32-c269-4bdc-9f80-97c58ed8e216"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="FSWUMLdiagram.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a2be0411-1ed0-4083-a498-b73b2332a2c8"
+            name="ParseFileFrom"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="22868658-5b9e-4f3e-9c20-3b3b50aab11c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DParseFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="453f345a-5794-46b5-b306-2eceecc6ed43"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="77910a3c-cd5e-4051-8817-b5db010ea203">
+                    <propertyInstance
+                      Id="4f782846-1d69-4105-b57f-e303d360c75a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3031eb1-63a5-43cc-849e-60f4149032fb">
+                    <propertyInstance
+                      Id="d39afae6-312c-40d8-9519-19aa011aaf86"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7af7e26-a95f-45c9-844b-661dc27c816e">
+                    <propertyInstance
+                      Id="75929b76-0ba5-403b-8082-ba9b8ee7f0e4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09bf75cb-9e8f-4a8d-a17d-89a7854ecb25">
+                    <propertyInstance
+                      Id="aeb4e031-b09a-40bc-bd91-9444c641e8cf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fbba405-89b2-4380-890e-5fa1afe67614">
+                    <propertyInstance
+                      Id="306c0eb0-fdd5-4122-ab1a-adcd93f609a9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="775ee6d1-0a86-4dbf-b630-aedc2855e9a9">
+                    <propertyInstance
+                      Id="752e0442-b132-41ba-a116-3a05438086f5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f3e97f44-f577-4c1f-9a92-85111d60f9a8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f04627cc-a459-47ac-aa56-36b0ead309f7"
+                      LastKnownName="ParsingResult"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="151e1cb5-39c0-4648-b9c7-dbee6f005d01"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="649bc1b2-0276-4ba5-a3f8-1ef25ec14e20"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DParseFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fd4af6ca-c541-468c-a02e-b657e8809027"
+            name="ContainsTransactionNumber"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8ce70682-03cd-4801-a91b-c62aa26d3042"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DContainsTransactionNumber OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="592acf94-eb0b-4425-b1bc-d899ad15e6c5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6364d754-cbc8-4ae5-9954-7398d18b92d8">
+                    <propertyInstance
+                      Id="c10d8011-64a0-44ac-a043-a7f7d097522b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6af0b2b8-985d-4cf1-9c07-4454a62c96e9">
+                    <propertyInstance
+                      Id="b220994b-7741-46c4-8bd4-6ff229c57e62"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6fbe531e-e94b-497d-be5a-3b8c13a62826">
+                    <propertyInstance
+                      Id="924c7d5b-103b-4811-8157-9ac2198bba73"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6be3f850-5fbc-4740-ae6f-7efcbd529cd6">
+                    <propertyInstance
+                      Id="7cd4e784-60b1-4a43-9149-2130a6440f97"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6d8fde2-6abd-4c85-b581-fae77741353f">
+                    <propertyInstance
+                      Id="132ce0d6-3cbf-49ed-bbde-48f5d23099ba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e05d670-25b5-4733-a96b-d41ca5af0632">
+                    <propertyInstance
+                      Id="5175b1c8-6163-42a6-a26e-06bf19826da5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9e20acff-6947-4a7b-8f66-9ca316787e40"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d744e58-61ab-4498-a4d1-892145641199"
+                  name="characterGroup"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="fecef2f6-6273-4368-8854-c8628d517d22"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DContainsTransactionNumber OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DcharacterGroup"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="c4e748d3-64f3-4b40-935c-bbb6962209f0"
+            name="GetTransactionNumberFrom"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e2dfeb1-7b5f-41c2-ad58-d3aef43d95dd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DGetTransactionNumberFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="15ebfe96-0848-4b77-b3c8-cbaf02b0f32a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2f453c1-7d2e-47c7-9e7f-d51f89ea45bb">
+                    <propertyInstance
+                      Id="11cdef35-24d7-4797-90b4-5c460495c50c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="911712c8-3348-4988-ae48-5dbb07184c61">
+                    <propertyInstance
+                      Id="7ce3e9e5-413a-48c4-bd46-5cd7b23414b6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69fe526d-8f12-4dc2-9e89-3079d82c1e81">
+                    <propertyInstance
+                      Id="2981780e-f717-47b8-8b78-8dc44165fbda"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4944f015-f809-46d1-81ce-5d05d466b216">
+                    <propertyInstance
+                      Id="cb3bd503-055d-4ed3-b9c2-50dc9dc30bbf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e2608f7-5717-46b4-ba43-099d29cf8ca0">
+                    <propertyInstance
+                      Id="7c69d939-408f-4b7e-9b9d-b924d5074c17"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f507e568-2b6c-48d3-8c53-80cca76b3cbe">
+                    <propertyInstance
+                      Id="b9a61838-a3a7-49a6-af97-ea66da9f3871"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a3d86529-5965-4d86-864b-f85ee1a4acfb"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="72c6cc22-7f78-47df-a7ed-269ca8a40dac"
+                  name="item"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="053095d6-6529-425d-93a7-ec3fbf063fa3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D(Name%3DGetTransactionNumberFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ditem"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0d76ce13-25f5-4117-b083-bd300c471711"
+            name="PaymentFileParser"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0d406a01-1058-4041-9ab7-a345bd825f31"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileParser Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ccc366f1-3a73-4dcf-a773-a48fbf371bfc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bc736b4-175f-4322-bd58-6f7c739879dc">
+                    <propertyInstance
+                      Id="db6f4481-c1c0-4a42-9a49-e5b6c604dcde"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a5c0bb-88e1-4c1f-a8fa-73d83967d6d3">
+                    <propertyInstance
+                      Id="38a85d3e-3bec-430e-921d-9e68900603d9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="956f0ba8-e602-4802-bfc4-904aa45de43e">
+                    <propertyInstance
+                      Id="cc4d707e-27fa-4ff4-98aa-dcc90e59d12f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b7522b08-5fc3-455f-82a6-ec4f367a9f49">
+                    <propertyInstance
+                      Id="dfe4c32c-8db7-49cc-8b9b-1c14e19e754c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79cc89e4-d71d-4fe4-bb00-867ffffa939d">
+                    <propertyInstance
+                      Id="49c5c422-4ff1-414e-9bbb-d843b1c3c5c8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b293df4d-55dc-48dc-ae2c-ec11c7456719">
+                    <propertyInstance
+                      Id="b26bf3ca-c185-44e5-9a2f-3f0e6e8d0007"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="dcd796c1-25a6-478f-b3c9-7ac40669ecd5"
+        name="IAmPaymentFileParser"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="919de5b1-1a37-4099-83a4-a19d1ff5e146"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="fe00e0f4-d13f-426a-9381-cd6e2ca5ca29"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fd65b42a-67ce-4608-aaa1-a206eb66c56d">
+                <propertyInstance
+                  Id="e312598a-b664-4a3d-b3b6-11619d42e614"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e41d215-afe0-448b-afc3-df4fd8b366e1">
+                <propertyInstance
+                  Id="4fae0328-7f3d-4b30-9b1c-0619e389377b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9bdb2d13-bd87-4256-acaa-75224eefa469">
+                <propertyInstance
+                  Id="927040cb-6943-4c56-8f03-ebf6ed61025a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e442504c-74c1-48d1-afec-f03c389c98cb">
+                <propertyInstance
+                  Id="a087a7fd-0cd1-49c2-b028-158c59d23e9d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="e7f8c9f1-845a-4a81-a339-8293fe2a0d35"
+            name="ParseFileFrom"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="107a364c-3ddc-4f31-a3fc-f7491cb18d04"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser Member%3D(Name%3DParseFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d0bf6990-cb5a-44e6-9f84-cc2ed2446a3b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="167b140a-c003-4005-a140-2acb987c78df">
+                    <propertyInstance
+                      Id="85c0e540-c8c5-41d1-8abd-fe91273ccb45"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a001e97b-ee42-49d6-b936-52bf8bdad2ec">
+                    <propertyInstance
+                      Id="907495a7-a254-4c76-80c9-6b9b8b3e2236"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70cdb514-c370-40b3-a678-6cb5e8aeff52">
+                    <propertyInstance
+                      Id="057393b7-f65b-4e98-a967-d5f12d378473"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e18d5f2b-027a-4597-997d-115c5cdb239b">
+                    <propertyInstance
+                      Id="19d6dc7e-1124-4d3e-8172-d4f83d72b5fa"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fb65ba4-493c-47f6-9d74-b206df39d8d2">
+                    <propertyInstance
+                      Id="3e33585c-954a-4d8c-b360-4ea855cdf675"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fbfdab35-bd17-4cff-9803-721a2074582f">
+                    <propertyInstance
+                      Id="118c5e6d-9e35-409e-aacd-3b11910e4b9b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c7e1388d-01fe-47e4-b42f-4216e0f6c5b1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f04627cc-a459-47ac-aa56-36b0ead309f7"
+                      LastKnownName="ParsingResult"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9114e287-c4ad-404b-9bcb-b87d8fbe1c5c"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5dfd29fd-e729-4996-9e76-16083c9b5d12"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser Member%3D(Name%3DParseFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="176c4d96-8025-4925-b599-7788b629b80e"
+        name="PaymentFileProcessor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6a20ff48-5e33-4f97-8d94-b3bda3757d4e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9e425837-9fac-4d7b-b9c6-d951533fec6e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="35499b52-e708-4506-9246-a3eab730a8b6">
+                <propertyInstance
+                  Id="0987f918-3d5a-4372-b6f9-c7e5eefb4632"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be3d31d8-460d-4d3f-ba74-527ee30aa10e">
+                <propertyInstance
+                  Id="1a1a84e4-a0bd-43aa-94c5-009c14288a52"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8cfe4471-1770-454d-ac88-28ae620b1427">
+                <propertyInstance
+                  Id="9dfe6f3c-c491-43a4-b094-2a0f80836522"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f765f152-b2ff-4bdb-bfea-3e9c09823e74">
+                <propertyInstance
+                  Id="3b32c847-8e4c-4e8b-aea8-8a2c32ac248b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c1f423fd-392a-45f5-8923-de22d6351c3d">
+                <propertyInstance
+                  Id="a6432f7b-369c-4cae-98d2-80043ce6eeb1"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ad3209c0-d1a2-41e8-9c15-8da9aa162dcd">
+            <interfaceMoniker
+              Id="915f8e19-40c7-4586-bcf1-44e5f707475c"
+              LastKnownName="IAmPaymentFileProcessor"
+              LastKnownLocation="Package_0846.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="566d1ee5-5452-4320-8919-e3287f81ad6d"
+            name="_fileParser"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6aff3461-90b1-4c85-a388-f5a54b18d5ef"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D_fileParser"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="35f4543f-9c25-450a-8aba-053a570d26b9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa25df58-fc9b-4d1a-a00a-6126a6304f8b">
+                    <propertyInstance
+                      Id="c38c56e9-aeb9-45c4-98eb-29bbabbd53ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae0fb34b-9ac7-4799-8bc5-218c6bd351ba">
+                    <propertyInstance
+                      Id="3eb22515-4b3b-4908-9446-e7ab98ee554d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4ecff8e-68b5-414b-badf-49ce9280f607">
+                    <propertyInstance
+                      Id="49e91e5c-a2dd-4331-8b6b-3aaf4219602d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3f0a1f9-68f2-4934-aa5d-74143c01a132">
+                    <propertyInstance
+                      Id="de77620d-071d-4ec1-a628-b11a68eb043a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aa4f42a9-deca-4406-a703-a7e8c6e6359c">
+                    <propertyInstance
+                      Id="ae4ab9ab-30b5-4120-8913-3999df1cee6b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="dcd796c1-25a6-478f-b3c9-7ac40669ecd5"
+                LastKnownName="IAmPaymentFileParser"
+                LastKnownLocation="Package_0846.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7c0b65c7-00ed-4eb1-8e8e-59cf1cbca4f7"
+            name="_mailSender"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3e749f35-05b4-43f4-b0f9-24f7998b7a6b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D_mailSender"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10d7fe9e-a4ca-4cbd-8428-e6b84c97372f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c82de9c-1d7e-4ed4-a505-0866d7a3aca5">
+                    <propertyInstance
+                      Id="f41c1550-7e81-4902-99b9-20578e2a356d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bde11162-19a9-4a48-bd7a-5ea3cc1bec8d">
+                    <propertyInstance
+                      Id="6c9dad9b-5ae7-4f8e-92b5-80f4ed87474e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b23235f6-9915-424f-b2f9-091a29970cba">
+                    <propertyInstance
+                      Id="e38370cf-eb72-4ea2-acef-c1edc75a93ad"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22926ba1-96aa-40c2-938a-b2a1a7b85f6c">
+                    <propertyInstance
+                      Id="599ce78c-c3e3-4434-89b3-6f391d89f802"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc0da171-d50a-42bf-a7bb-26c69d86236d">
+                    <propertyInstance
+                      Id="d6b0b8f2-4867-4512-9c5e-fa6a382aa1ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="82155213-0dae-440a-a5ce-5414d1ba61e4"
+                LastKnownName="IAmMailSender"
+                LastKnownLocation="Package_0846.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="685da246-68c3-4c7e-a4f2-e7c89d73120b"
+            name="_fileArchiver"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ed45116e-8050-491d-804a-dc832bf39231"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D_fileArchiver"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9f58d79a-b66e-437b-a833-bae9397dea5e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85cfbc81-41e8-427e-8a82-600001776502">
+                    <propertyInstance
+                      Id="33e1fbc6-9713-41d5-bb75-f8c67c89f30a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8eae5c45-0617-46ff-8e08-b08103914c03">
+                    <propertyInstance
+                      Id="ddd321a2-22b3-47bf-89dd-9153815f13fd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1402f4ae-35c6-4e86-b215-4217c3812a34">
+                    <propertyInstance
+                      Id="fbcfeb04-648e-4b31-920d-2550608173d6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="398015f0-cab7-4591-8ac9-d756df487cb2">
+                    <propertyInstance
+                      Id="b8e3efa8-d278-4229-8de0-42c84fe1aaf6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00f2c754-9d73-4d34-b3e9-57e9f702bcb3">
+                    <propertyInstance
+                      Id="fa978203-367e-4c7c-8682-849dd0f29103"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="12b05ed7-2ea9-49c3-bb5f-ab35cdc372b9"
+                LastKnownName="IAmPaymentFileArchiver"
+                LastKnownLocation="Package_0846.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e3755c39-5c20-4a9f-86fe-bd7a2b2d8d51"
+            name="PaymentFileProcessor"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38bdb28b-6554-4e46-a942-271ffdc783df"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c979b6be-82bb-419d-a687-7192ab178346"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="682adb1b-c95d-4330-9504-51f3a8e431e0">
+                    <propertyInstance
+                      Id="bac9eb13-2e6f-465a-812c-155cf780a09f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c0ba3a7-9d4c-4037-a32a-5e2874892f6a">
+                    <propertyInstance
+                      Id="21ddc2ef-7892-4359-a482-34b4a6ecc8ab"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46d27409-aeb0-481f-a1ce-f2fd16b82c08">
+                    <propertyInstance
+                      Id="551f2542-09a8-4c37-a93a-b9d3649c11c0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="06aaacd1-0dbc-4201-ae29-8e211e731fcf">
+                    <propertyInstance
+                      Id="e9442cd6-52e6-442b-b303-5e5d796d429e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc4ea7ff-a23b-4368-a27b-08a807ca5870">
+                    <propertyInstance
+                      Id="2748a1f5-8a77-4caf-8c3a-0726563c20fe"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1aeb1c77-5579-40f7-abc8-191ca700d033">
+                    <propertyInstance
+                      Id="1b2390dc-5ef2-4705-bed7-b18a318c654f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="701546ed-be63-412d-8eb3-39fcc286b8ec"
+                  name="mailSender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="516aca18-7e4a-47e6-81af-b7682061e021"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver)]) ParameterIdentifier%3DmailSender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="82155213-0dae-440a-a5ce-5414d1ba61e4"
+                      LastKnownName="IAmMailSender"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="557ffa6f-1447-408a-a366-be46bebbc9b6"
+                  name="fileParser"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0dbffffb-386d-481c-b3bd-f29622fc07d0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver)]) ParameterIdentifier%3DfileParser"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="dcd796c1-25a6-478f-b3c9-7ac40669ecd5"
+                      LastKnownName="IAmPaymentFileParser"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dceeb8ca-15f0-462b-918b-a53a27ad223c"
+                  name="fileArchiver"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c8d295fb-1088-4524-bcf8-e84603b7a448"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmMailSender)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileParser)%2C(Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DIAmPaymentFileArchiver)]) ParameterIdentifier%3DfileArchiver"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="12b05ed7-2ea9-49c3-bb5f-ab35cdc372b9"
+                      LastKnownName="IAmPaymentFileArchiver"
+                      LastKnownLocation="Package_0846.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="38d7dc66-c82e-41ee-9601-3125bda4ab0f"
+            name="ProcessFileFrom"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c5d78ab9-daf7-440b-84c0-95f50324fe24"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3DProcessFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b0ae67ae-0ca9-43f0-bda2-a5bf5a6f2994"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c353813a-2bed-4c9c-b2a1-eb703fd6f1c4">
+                    <propertyInstance
+                      Id="3c725bae-c409-44d3-b34b-ffe3f5cb0101"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03dd1306-6590-4bef-babc-4c5e1e2e128f">
+                    <propertyInstance
+                      Id="a6abfe03-5037-4be3-93c7-31efd498d4ea"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="396247d1-7b8f-435a-bc92-68d6b5e1547d">
+                    <propertyInstance
+                      Id="75f36561-c752-48e5-b22a-397aa61d0ebe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76035e48-e6b5-40ed-9f3c-808566dca9a3">
+                    <propertyInstance
+                      Id="3cdb8fbc-3ef1-4e6b-8859-8ada0d6edcfe"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1958ddd2-8c45-4484-9d75-019fb3f6b264">
+                    <propertyInstance
+                      Id="2b794559-8e47-48ca-bdf7-60c74ffa2e78"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="827410e4-cfb0-4f09-bb9b-b95cefedb544">
+                    <propertyInstance
+                      Id="27403709-672f-4c46-ae1d-1747e3090207"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1b2f807c-c562-4e4a-9e37-ec665f5b3a36"
+                  name="path"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4fecbd89-c591-414b-8956-66a9f7bc0991"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FE:%2FCode%2FProjects%2FFileSystemWatcher%2FFileSystemWatcherGit%2FMailFunctionality%2Fbin%2FDebug%2FMailFunctionality.dll Namespace%3DMailFunctionality Type%3DPaymentFileProcessor Member%3D(Name%3DProcessFileFrom OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dpath"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="FSWUMLdiagram.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

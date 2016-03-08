@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-03-08T08:55:49" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality' -  (Package)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::IAmMailSender' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::IAmPaymentFileArchiver' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::IAmPaymentFileParser' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::IAmPaymentFileProcessor' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Medium" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor' -  (Class)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::_fileArchiver' -  (Property)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::_fileParser' -  (Property)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::_mailSender' -  (Property)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::PaymentFileProcessor' -  (Operation)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::PaymentFileProcessor::fileArchiver' -  (Parameter)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::PaymentFileProcessor::fileParser' -  (Parameter)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::PaymentFileProcessor::mailSender' -  (Parameter)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::ProcessFileFrom' -  (Operation)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'FSWUMLdiagram::MailFunctionality::PaymentFileProcessor::ProcessFileFrom::path' -  (Parameter)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: FSWUMLdiagram::MailFunctionality::PaymentFileProcessor to FSWUMLdiagram::MailFunctionality::IAmPaymentFileProcessor (InterfaceRealization)" />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="High" Text="(4) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-03-08T08:55:50" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

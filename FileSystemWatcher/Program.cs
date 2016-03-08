@@ -23,8 +23,8 @@ namespace DirectoryMonitoring
 
         public static void Main(string[] args)
         {
-            
-            const string watchedFolderPath = @"D:\Programming\Stepa\Parsing";
+
+            const string watchedFolderPath = @"E:\Code\Stepa\Parsing";
 
             var watcher = new System.IO.FileSystemWatcher
             {
@@ -32,6 +32,7 @@ namespace DirectoryMonitoring
                 EnableRaisingEvents = true,
                 Filter = "*.*"
             };
+
             //Program program = new Program(_directoryWatcher);
             watcher.Created += watcher_Created;
 

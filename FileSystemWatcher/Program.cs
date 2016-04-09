@@ -11,12 +11,6 @@ namespace DirectoryMonitoring
 {
     class Program
     {
-        /*private static IAmDirectoryWatcher _directoryWatcher;
-
-        private Program(IAmDirectoryWatcher directoryWatcher)
-        {
-            _directoryWatcher = directoryWatcher;
-        }*/
         private static readonly DirectoryWatcher _directoryWatcher = new DirectoryWatcher(new PaymentFileProcessor(new GmailSender(),
                                                                                                                   new PaymentFileParser(),
                                                                                                                   new PaymentFileArchiver()));
